@@ -166,3 +166,25 @@ main {
 .nav-links:active::after {
   width: 100%;
 }
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.phone-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.heart-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.cart-icon {
+  width: 25px;
+  height: 25px;
+}
