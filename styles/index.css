@@ -231,6 +231,11 @@ svg:active {
   margin-bottom: 3rem;
 }
 
+.info-title svg {
+  margin-bottom: 25px;
+  margin-left: 4px;
+}
+
 .info {
   color: #aaa8a8;
   display: flex;
