@@ -399,13 +399,24 @@ svg:active {
 }
 
 .waltz {
-  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  /* margin-right: 4rem; */
   font-size: 1.4rem;
   width: 50%;
 }
 
 .waltz span {
-  padding-left: 1.2rem;
+  /* padding-bottom: 0.5rem; */
+  /* padding-left: 10px; */
+}
+
+.bolt-walt {
+  height: 23px;
+  width: 23px;
 }
 
 .walts-container {
