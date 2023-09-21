@@ -363,6 +363,7 @@ svg:active {
   border-top: 3px solid #f0efef6e;
   padding-top: 10px;
   padding-left: 18px;
+  padding-right: 18px;
 }
 
 .cards img {
@@ -403,7 +404,7 @@ svg:active {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   /* margin-right: 4rem; */
   font-size: 1.4rem;
   width: 50%;
@@ -422,7 +423,16 @@ svg:active {
 .walts-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.waltz-container {
+  display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+  margin-right: 8rem;
+  margin-top: 1.5rem;
 }
 
 .price {
@@ -442,7 +452,7 @@ svg:active {
   display: flex;
   justify-content: center;
   background-color: #121212ae;
-  width: 100px;
+  width: 15rem;
   height: 30px;
   margin-top: 12px;
   border-radius: 5px;
