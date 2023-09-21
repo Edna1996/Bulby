@@ -455,3 +455,14 @@ svg:active {
   width: 20px;
   height: 20px;
 }
+
+.view-btn {
+  display: flex;
+  justify-content: center;
+  font-family: var(--card-font);
+  font-weight: 500;
+  color: var(--hover-color);
+  font-size: 1.8rem;
+  padding: 3rem;
+  margin-left: 113rem;
+}
